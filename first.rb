@@ -9,6 +9,11 @@
 #   print "this will appear 10 time \n"
 # end 
 
-[1,2,3,4,5,5].each do |item| 
-  print item, " "
+# [1,2,3,4,5,5].each do |item| 
+#   print item, " "
+# end 
+
+for i in 1..10
+  next if i % 2 == 0
+  print i, "is an odd number\n"
 end 
